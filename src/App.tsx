@@ -4,6 +4,7 @@ import Navbar from './components/Navbar/Navbar'
 import Home from './pages/Home/Home'
 import AnimatedCursor from 'react-animated-cursor'
 import Footer from './components/Footer/Footer'
+import Projects from './components/Projetcs/Projects'
 
 function App() {
 	return (
@@ -24,6 +25,7 @@ function App() {
 			<Navbar />
 			<Routes>
 				<Route path="/" element={<Home />} />
+				<Route path="/projects" element={<Projects />} />
 			</Routes>
 			<Footer />
 		</>

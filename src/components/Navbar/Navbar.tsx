@@ -8,7 +8,7 @@ const Navbar = () => {
 	const [sticky, setSticky] = useState(false)
 
 	const handleScroll = () => {
-		if (window.scrollY > 200) {
+		if (window.scrollY > 50) {
 			setSticky((value) => true)
 		} else {
 			setSticky((value) => false)

@@ -1,0 +1,14 @@
+.projects{
+    padding-top: 200px;
+
+    .site-title{
+        font-family: 'Old Standard TT', serif;
+        font-size: 8em;
+        margin-left: 0.5em;
+        margin-bottom: 1em;
+
+        @media screen and (max-width: 768px) {
+            font-size: 4em;
+        }
+    }
+}
