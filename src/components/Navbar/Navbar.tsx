@@ -47,8 +47,8 @@ const Navbar = () => {
 							<div className="nav-item-wrapper"></div>
 						</li>
 						<li className="nav-item">
-							<Link to="/about" onClick={() => setOpen(!open)} style={{ top: open ? '0px' : '120px', transitionDelay: open ? '1s' : '0s' }}>
-								About
+							<Link to="/before-after" onClick={() => setOpen(!open)} style={{ top: open ? '0px' : '120px', transitionDelay: open ? '1s' : '0s' }}>
+								B & A
 							</Link>
 							<div className="nav-item-wrapper"></div>
 						</li>

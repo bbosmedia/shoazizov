@@ -1,0 +1,54 @@
+.before-after-page{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1940px;
+    padding: 0 20px;
+    padding-top: 200px;
+    .site-title{
+        font-family: 'Old Standard TT', serif;
+        font-size: 5em;
+        margin-bottom: 1em;
+        position: relative;
+
+        @media screen and (max-width: 768px) {
+            font-size: 2em;
+        }
+    }
+
+    .before-after-page-inner{
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+    }
+
+    .before-after-card{
+        display: grid;
+        grid-template-columns: 1fr 400px;
+        gap: 20px;
+        @media screen and (max-width: 1024px) {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    .before-after-card-body{
+        max-width: 400px;
+        width: 100%;
+        h4{
+            font-family: 'Old Standard TT', serif;
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        p{
+            font-size: 16px;
+            line-height: 1.2;
+        }
+
+        a{
+            color: #3399ff;
+            text-decoration: none;
+            margin-top: 10px;
+            display: block;
+        }
+    }
+}
