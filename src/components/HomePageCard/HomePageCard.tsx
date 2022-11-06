@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { IHomeCard } from '../../types/homecard.inteface'
+import { IHomeCard } from '../../types'
 import './HomePageCard.scss'
 
 const HomePageCard = ({ item }: { item: IHomeCard }) => {

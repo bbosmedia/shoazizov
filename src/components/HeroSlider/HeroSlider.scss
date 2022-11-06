@@ -1,0 +1,62 @@
+.slick-slide img {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    display: block;
+}
+
+.hero-slider{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+}
+
+.hero-box{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #18181c;
+    display: flex;
+    align-items: center;
+
+    .compnay-name{
+        padding: 20px;
+        h2{
+            font-family: 'Old Standard TT', serif;
+            font-size: 72px;
+            position: relative;
+            text-align: center;
+            @media screen and (max-width: 768px) {
+                font-size: 32px;
+            }
+        }
+        p{
+            margin-top: -10px;
+            font-weight: 300;
+        }
+    }
+
+    .slider-btns{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        button{
+            font-family: 'Old Standard TT', serif;
+            width: 100px;
+            height: 70px;
+            border: 1px solid #000;
+            font-size: 22px;
+            outline: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        display: none;
+    }
+}

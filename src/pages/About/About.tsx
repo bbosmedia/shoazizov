@@ -9,7 +9,6 @@ const About = () => {
 		const texts = document.querySelectorAll('.about-main-info-text')
 		const textstwo = document.querySelectorAll('.about-main-info-text-two')
 		gsap.registerPlugin(ScrollTrigger)
-		gsap.from('.about-page .site-title', { opacity: 0, duration: 0.5, y: '50px', delay: 0.3, ease: 'elastic' })
 
 		texts.forEach((item) => {
 			gsap.from(item, {
@@ -82,18 +81,19 @@ const About = () => {
 
 	return (
 		<div className="about-page">
-			<h2 className="site-title">About Us</h2>
 			<div className="about-main-info">
+				<h3 className="about-main-info-text">Since 2018</h3>
 				<h3 className="about-main-info-text">Shoazizov group</h3>
-				<h3 className="about-main-info-text-two">help you</h3>
-				<h3 className="about-main-info-text">to build</h3>
-				<h3 className="about-main-info-text-two">your dream</h3>
-				<h3 className="about-main-info-text">house,</h3>
-				<h3 className="about-main-info-text-two">office,</h3>
-				<h3 className="about-main-info-text">shopping mall,</h3>
-				<h3 className="about-main-info-text-two">and etc.</h3>
-				<h3 className="about-main-info-text">We finished more than</h3>
-				<h3 className="about-main-info-text-two">50 projects since 2018.</h3>
+				<h3 className="about-main-info-text-two">helping people</h3>
+				<h3 className="about-main-info-text">to design</h3>
+				<h3 className="about-main-info-text-two">people's dream</h3>
+				<h3 className="about-main-info-text-two">and unique</h3>
+				<h3 className="about-main-info-text">houses,</h3>
+				<h3 className="about-main-info-text-two">offices,</h3>
+				<h3 className="about-main-info-text">shopping malls.</h3>
+				<h3 className="about-main-info-text">Group members</h3>
+				<h3 className="about-main-info-text">designed more than</h3>
+				<h3 className="about-main-info-text-two">50 projects.</h3>
 			</div>
 			<div className="about-owner">
 				<img className="owner-img" src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="" />
