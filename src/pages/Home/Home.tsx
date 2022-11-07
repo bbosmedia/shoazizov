@@ -20,8 +20,8 @@ const Home = () => {
 					</Masonry>
 				</ResponsiveMasonry>
 			</section>
+			<About />
 			<PricesSection />
-			{/* <About /> */}
 		</div>
 	)
 }
