@@ -1,4 +1,4 @@
-import React, { useLayoutEffect, } from 'react'
+import React, { useLayoutEffect } from 'react'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
@@ -96,7 +96,7 @@ const About = () => {
 				<h3 className="about-main-info-text-two">50 projects.</h3>
 			</div>
 			<div className="about-owner">
-				<img className="owner-img" src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="" />
+				<img className="owner-img" src={require('../../assets/man.jpg')} alt="" />
 				<h3 className="owner-name">Shohobiddin Shoazizov</h3>
 				<p className="owner-bio">Shohobiddin Shoazizov is a senior exterior and interior designer and founder of "Shoazizov Architect Group". More than 30 Architectural projects owner.</p>
 			</div>
