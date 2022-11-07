@@ -23,7 +23,7 @@ const BeforeAfter = () => {
 					<div className="before-after-card-body">
 						<h4>Moscow City</h4>
 						<p>Дизайнеры нашей студии оформили квартиру в башне “Федерация”, Москва-Сити, Москва.</p>
-                        <Link to="/">More about the project</Link>
+                        <Link to="/galleries/4">More about the project</Link>
 					</div>
 				</div>
 				<div className="before-after-card">
@@ -40,7 +40,7 @@ const BeforeAfter = () => {
 					<div className="before-after-card-body">
 						<h4>Vander Park, 88</h4>
 						<p>Дизайнеры нашей студии оформили квартиру в башне “Федерация”, Москва-Сити, Москва.</p>
-                        <Link to="/">More about the project</Link>
+                        <Link to="/galleries/2">More about the project</Link>
 					</div>
 				</div>
 				<div className="before-after-card">
@@ -57,7 +57,7 @@ const BeforeAfter = () => {
 					<div className="before-after-card-body">
 						<h4>Vander Park, 88</h4>
 						<p>Дизайнеры нашей студии оформили квартиру в башне “Федерация”, Москва-Сити, Москва.</p>
-                        <Link to="/">More about the project</Link>
+                        <Link to="/galleries/1">More about the project</Link>
 					</div>
 				</div>
 			</div>

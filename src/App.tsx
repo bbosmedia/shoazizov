@@ -8,6 +8,7 @@ import Projects from './pages/Projetcs/Projects'
 import About from './pages/About/About'
 import Contact from './pages/Contact/Contact'
 import BeforeAfter from './pages/BeforeAfter/BeforeAfter'
+import Galleries from './pages/Galleries/Galleries'
 
 function App() {
 	return (
@@ -32,6 +33,7 @@ function App() {
 				<Route path="/about" element={<About />} />
 				<Route path="/contact" element={<Contact />} />
 				<Route path="/before-after" element={<BeforeAfter />} />
+				<Route path="/galleries/:id" element={<Galleries />} />
 			</Routes>
 			<Footer />
 		</>
